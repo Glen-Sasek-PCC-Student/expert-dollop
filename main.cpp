@@ -16,7 +16,48 @@ using namespace std;
 // Main function
 // https://en.cppreference.com/w/cpp/language/main_function.html
 int main() {
-  cout << "Hello, World!" << endl;
+  cout << "L00PS" << endl;
+
+  cout << endl;
+  cout << "for(int i = 0; i < 10; i++)" << endl;
+  for(int i = 0; i < 10; i++) // i++ or ++i increment operator abbreviation i = i + 1
+  {
+    cout << i << endl;
+  }
+
+  // for(INITIALIZATION; LOOP INVARIANT; POST EXPRESSION) 
+  // {
+  //   LOOP BODY
+  //   Executed if LOOP INVARIANT expression is true
+  // }
+
+  cout << endl;
+  cout << "for(; i < 10;)" << endl;
+  // Rewriting with initialization before and post at end of loop
+  int i = 0;
+  for(; i < 10;)  
+  {
+    cout << i << endl;
+    i++;
+  }
+
+  cout << endl;
+  cout << "while(i < 20) " << endl;
+  while(i < 20) 
+  {
+    cout << i << endl;
+    i++;
+  }
+
+  cout << endl;
+  cout << "for(int n = 0; n < 10; n++)" << endl;
+  int n;
+  for(n = 0; n < 10; n++)
+  {
+    cout << n << endl;
+  }
+
+
   return 0;
 }
 
